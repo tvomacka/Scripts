@@ -1,5 +1,4 @@
-# This script
-# iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/windows.ps1 | iex
+# If this doesn't run, try setting the execution policy by: set-executionpolicy remotesigned
 
 #Requires -RunAsAdministrator
 
