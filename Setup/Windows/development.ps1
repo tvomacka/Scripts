@@ -5,11 +5,11 @@
 
 iwr -useb cin.st | iex
 choco feature enable --name=allowGlobalConfirmation
-cinst win-no-annoy
-cinst vscode
-cinst googlechrome
-cinst git poshgit github-desktop
-cinst sublimetext4
+choco install win-no-annoy
+choco install vscode
+choco install googlechrome
+choco install git poshgit github-desktop
+choco install sublimetext4
 
 # delete annoying Windows notification sounds
 Remove-Item -ErrorAction SilentlyContinue -Recurse HKCU:\AppEvents\Schemes
