@@ -24,9 +24,6 @@ Set-Service Audiosrv -StartupType Automatic
     'vscode-icons-team.vscode-icons'
 ) | % { & "C:\Program Files\Microsoft VS Code\bin\code.cmd" --install-extension $_ }
 
-
-& "${env:ProgramFiles}\Google\Chrome\Application\chrome.exe" https://app.mindmup.com/map/new
-
 # Visual Studio 2022 community
 choco install visualstudio2022community
 
