@@ -28,4 +28,7 @@ Set-Service Audiosrv -StartupType Automatic
 # Visual Studio 2022 community
 choco install visualstudio2022community
 
+# Native C/C++ Development tools for VS
+# choco install visualstudio2022-workload-nativedesktop
+
 Write-Host -Foreground yellow "Reboot when done"
