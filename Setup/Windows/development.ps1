@@ -9,6 +9,7 @@ choco install vscode
 choco install googlechrome
 choco install git poshgit github-desktop
 choco install sublimetext4
+choco install python3
 
 # delete annoying Windows notification sounds
 Remove-Item -ErrorAction SilentlyContinue -Recurse HKCU:\AppEvents\Schemes
