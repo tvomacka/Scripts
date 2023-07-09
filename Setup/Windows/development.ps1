@@ -23,7 +23,7 @@ Set-Service Audiosrv -StartupType Automatic
     'ms-vscode.powershell'
     'mohsen1.prettify-json'
     'vscode-icons-team.vscode-icons'
-    'vscode-cpptools'
+    'ms-vscode.cpptools-extension-pack'
 ) | % { & "C:\Program Files\Microsoft VS Code\bin\code.cmd" --install-extension $_ }
 
 # Visual Studio 2022 community
