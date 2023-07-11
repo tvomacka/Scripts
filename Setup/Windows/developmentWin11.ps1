@@ -27,3 +27,6 @@ choco install sublimetext4
 choco install git poshgit github-desktop
 choco install python3
 choco install vscode
+choco install visualstudio2022community
+
+#Extensions and tool setup
