@@ -18,5 +18,9 @@ Remove-Item -ErrorAction SilentlyContinue -Recurse HKCU:\AppEvents\Schemes
 Set-Service Audiosrv -StartupType Automatic
 
 #General tools
+choco install googlechrome
+choco install sublimetext4
+choco install paint.net
+choco install inkscape
 
 #Development
