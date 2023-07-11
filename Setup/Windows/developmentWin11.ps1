@@ -24,3 +24,6 @@ choco install inkscape
 choco install sublimetext4
 
 #Development
+choco install git poshgit github-desktop
+choco install python3
+choco install vscode
