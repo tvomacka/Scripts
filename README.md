@@ -11,3 +11,4 @@ development.ps1
  - Image manipulation tools (at least Paint.NET and InkScape)
  - Package installation to Sublime Text (JSON re-indent)
  - Make sure the C/C++ development is possible in MSVC and VSC (compilation, etc.)
+ - Remove the unnecessary extensions from VSC
