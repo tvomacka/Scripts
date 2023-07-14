@@ -33,3 +33,7 @@ choco install visualstudio2022community
 
 #Extensions and tool setup
 choco install visualstudio2022-workload-nativedesktop
+@(
+    'ms-vscode.cpptools'
+    'ms-vscode.cpptools-extension-pack'
+) | % { & "C:\Program Files\Microsoft VS Code\bin\code.cmd" --install-extension $_ }
