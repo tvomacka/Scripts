@@ -22,6 +22,7 @@ choco install googlechrome
 choco install paint.net
 choco install inkscape
 choco install sublimetext4
+choco install openvpn-connect
 
 #Development
 choco install git poshgit github-desktop
