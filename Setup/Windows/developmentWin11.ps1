@@ -25,7 +25,8 @@ choco install sublimetext4
 choco install openvpn-connect
 
 #Development
-choco install git poshgit github-desktop
+choco install git 
+choco install github-desktop
 choco install python3
 choco install mingw
 choco install vscode
