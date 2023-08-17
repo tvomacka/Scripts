@@ -30,3 +30,5 @@ The following software is installed:
 # Tricks
 
 Various tips and tricks to be used with different scripting tools.
+
+- wildcards.ps1 idea taken from [How Hackers Hide](https://www.youtube.com/watch?v=WJlqQYyzGi8&ab_channel=JohnHammond)
