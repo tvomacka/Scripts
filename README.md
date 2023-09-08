@@ -8,6 +8,10 @@ The scripts (at least development.ps1 for Windows machines) need to be run as Ad
 
 ## Windows
 
+### Create Win11 VM (createWin11VM.ps1)
+
+- Creates a Hyper-V VM that is capable of installing Windows 11 from a provided .iso file
+
 ### Development Machine (development.ps1)
 
 The following software is installed:
