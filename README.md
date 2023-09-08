@@ -2,11 +2,17 @@
 
 ## Quick Tips
 
-The scripts (at least development.ps1 for Windows machines) need to be run as Administrator, otherwise some components such as Sublime Text will not be installed.
+- The scripts (at least development.ps1 for Windows machines) need to be run as Administrator, otherwise some components such as Sublime Text will not be installed.
 
 # Setup
 
 ## Windows
+
+- Some of the scripts require execution policy to be changed to remote signed.
+
+```powershell
+Set-ExecutionPolicy RemoteSigned
+```
 
 ### Create Win11 VM (createWin11VM.ps1)
 
