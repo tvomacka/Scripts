@@ -18,6 +18,7 @@ Set-ExecutionPolicy RemoteSigned
 
 - Creates a Hyper-V VM that is capable of installing Windows 11 from a provided .iso file
 - Credit: https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-run-a-windows-11-vm-on-hyper-v/ba-p/3713948
+- **Note:** There is a bug in certain Hyper-V versions that may prevent the system installation from starting. In which case you need to use a workaround: https://learn.microsoft.com/en-us/answers/questions/826745/hyper-v-windows-2022-boot-loader-error
 
 ### Development Machine (development.ps1)
 
